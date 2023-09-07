@@ -1,0 +1,24 @@
+.card {
+    @apply bg-secondary-light
+    dark:bg-secondary-dark
+    p-4
+    rounded-sm;
+}
+
+.fr-ic-jc {
+    @apply flex
+    items-center
+    justify-center
+}
+
+.fc-sy-4 {
+    @apply flex
+    flex-col
+    space-y-4;
+}
+
+.fc-sy-6 {
+    @apply flex
+    flex-col
+    space-y-6;
+}

@@ -1,0 +1,30 @@
+@import "utils/main.css";
+@import "utils/layout.css";
+@import "utils/utility.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply w-full
+    mx-auto
+    max-w-[95%]
+    sm:max-w-[90%]
+    md:max-w-[80%]
+    lg:max-w-[70%]
+}
+
+h1 {
+    @apply text-4xl
+    font-semibold
+}
+
+h2 {
+    @apply text-3xl
+    font-semibold
+}
+
+h3 {
+    @apply text-2xl
+    font-medium
+}

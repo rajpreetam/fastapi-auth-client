@@ -1,0 +1,18 @@
+.input {
+    @apply w-full
+    p-2
+    rounded-md
+    bg-transparent
+    border
+    outline-0
+    border-txt-light/50
+    dark:border-txt-dark/50;
+}
+
+.btn {
+    @apply flex
+    items-center
+    justify-center
+    p-2
+    rounded-md
+}
